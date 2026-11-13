@@ -1,0 +1,26 @@
+{
+    "io":
+    {
+        "port": "COM3",
+        "baudrate": 9600,
+        "timeout": 1
+    },
+    "default":
+    {
+        "volume": 0.25,
+        "micro_step_mode": 2,
+        "top_velocity": 7000,
+        "initialize_valve_position": "I"
+    },
+    "groups":
+    {
+        "chemicals": ["water"]
+    },
+    "pumps":
+    {
+        "water":
+        {
+            "switch": "0"
+        }
+    }
+}
